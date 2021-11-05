@@ -1,0 +1,41 @@
+<!--
+ * @Description: 
+ * @Version: 0.1.0
+ * @Author: AiDongYang
+ * @Date: 2021-08-26 17:59:29
+ * @LastEditors: AiDongYang
+ * @LastEditTime: 2021-08-26 18:37:54
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let i = 0
+    while(i < 5) {
+      if (i === 2) {
+        console.log(i, '=2')
+        break
+      }
+      console.log(i, '!=')
+      i++
+    }
+    const arr = []
+    arr[undefined] = 1
+    console.log(arr)
+    const a1 = new Array(2)
+    for (let i = 0; i < a1.length; i++) {
+      a1[i] = -1
+    }
+    a1[undefined] = 2
+    a1[5] = 7
+    console.log(a1)
+    console.log(a1[3])
+  </script>
+</body>
+</html>
